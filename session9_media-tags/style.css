@@ -1,0 +1,74 @@
+/* * {
+  border: 1px solid red;
+} */
+
+/* h1,
+h3 {
+  color: purple;
+  font-family: cursive;
+} */
+
+p.our-paragraph {
+  color: greenyellow;
+}
+
+video {
+  display: block;
+  margin: auto;
+}
+
+#target-by-id {
+  color: tomato;
+}
+
+li a {
+  color: cadetblue;
+}
+
+/* h1 + p {
+  color: mediumvioletred;
+} */
+
+/* div h1 ~ p {
+  color: steelblue;
+} */
+
+* {
+  font-family: Arial, Verdana, sans-serif;
+}
+
+h1 {
+  font-family: "Courier New", monospace;
+}
+
+i {
+  color: green;
+}
+
+i {
+  color: red;
+}
+
+b {
+  color: pink;
+}
+
+p b {
+  color: blue !important;
+}
+
+p b {
+  color: violet;
+}
+
+p#intro {
+  font-size: 100%;
+}
+
+p {
+  font-size: 75%;
+}
+
+div {
+  color: pink;
+}

@@ -1,0 +1,31 @@
+body {
+    background-color: pink;
+}
+
+button {
+  background: linear-gradient(to right, rgba(255, 140, 0, 0.831), rgb(255, 115, 0));
+  border: orange;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  margin: 2px;
+  border-radius: 30px 30px 30px 30px;
+  height: 40px;
+  width: 200px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.practicing-colors {
+  /* color: purple; */
+  /* color: #ff00cc; */
+  color: rgb(0, 255, 115);
+  /* background-color: purple; */
+  text-align: center;
+  /* opacity: 0.5; */
+  background-color: rgba(255, 0, 0, 0.1);
+}

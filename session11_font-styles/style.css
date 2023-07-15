@@ -1,6 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 body {
   /* background-color: pink; */
   /* font-family: "Caprasimo"; */
+  font-family: "Roboto", sans-serif;
 }
 
 @font-face {
@@ -27,7 +30,7 @@ h1 {
   background-color: rgba(255, 0, 0, 0.1);
 }
 
-p {
+p.grouped-paragraph {
   font-weight: 100;
   font-style: italic;
   text-transform: capitalize;
@@ -41,4 +44,45 @@ p {
 }
 img {
   display: inline;
+}
+
+.credits {
+  text-indent: 200px;
+  text-shadow: 1px 1px 1px green;
+  color: grey;
+}
+
+.credits::first-letter {
+  font-size: 200px;
+}
+
+.credits::first-line {
+  color: pink;
+}
+
+.credits:hover {
+  color: rgb(0, 255, 115);
+}
+
+button {
+  color: black;
+  background-color: aqua;
+  border-radius: 30px 30px 30px 30px;
+  text-decoration: solid;
+  margin: 2px;
+  height: 40px;
+  width: 200px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: limegreen;
+  color: white;
+  width: 400px;
+}
+
+p[name="usaid"] {
+  color: purple;
 }

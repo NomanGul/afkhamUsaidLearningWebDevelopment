@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  background: linear-gradient(#ffa0a0, #ff5353);
+  /* text-align: center; */
+  font-family: "Roboto", sans-serif;
+  /* height: 96vh; */
+  /* height: 100%; */
+  /* display: flex; */
+}
+
+span {
+  display: none;
+  /* visibility: hidden; */
+}
+
+h3 {
+  visibility: hidden;
+}
+
+h2 {
+  display: none;
+  /* visibility: hidden; */
+}
+
+p {
+  border: 10px solid red;
+  /* border-image: url("https://img.freepik.com/free-vector/dot-abstract-background-isolated-white-vector_90220-410.jpg?w=2000") 11 11 11 11 repeat; */
+  border-radius: 25px;
+  /* border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px; */
+}
